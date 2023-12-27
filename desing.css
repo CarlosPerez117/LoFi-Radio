@@ -1,0 +1,173 @@
+* {
+  font-family: 'Dancing Script', cursive;
+  margin: 0 auto;
+}
+
+#divVideo {
+  position: fixed;
+  text-align: center;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+#myVideo0 {
+  min-height: 101%;
+  min-width: 101%;
+  width: auto;
+  height: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/*#myVideo0 {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}*/
+
+.title {
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  font-size: 25px;
+  color: whitesmoke;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.contenedor {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-content: end;
+}
+
+.recuadro {
+  position: fixed;
+  bottom: 50px;
+  font-size: 20px;
+  background: rgba(0, 0, 0, 0.5);
+  color: whitesmoke;
+  padding: 10px;
+  border-radius: 15px 15px 15px 15px;
+  -moz-border-radius: 15px 15px 15px 15px;
+  -webkit-border-radius: 15px 15px 15px 15px;
+  border: 0px solid whitesmoke;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+}
+
+@media only screen and (max-width: 600px) {
+  .videooo {
+    display: none;
+  }
+}
+
+.buttonplay {
+  background: whitesmoke;
+  color: black;
+  font-size: 25px;
+  cursor: pointer;
+  border-radius: 15px 15px 15px 15px;
+  -moz-border-radius: 15px 15px 15px 15px;
+  -webkit-border-radius: 15px 15px 15px 15px;
+  border: 0px solid #000000;
+}
+
+.buttonplay:hover {
+  background: black;
+  color: whitesmoke;
+}
+
+
+#effect {
+  border-radius: 15px 15px 15px 15px;
+  -moz-border-radius: 15px 15px 15px 15px;
+  -webkit-border-radius: 15px 15px 15px 15px;
+  border: 0px solid #000000;
+}
+
+#myBtn {
+  font-size: 25px;
+  border: none;
+  background: #000;
+  color: whitesmoke;
+  cursor: pointer;
+  border-radius: 15px 15px 15px 15px;
+  -moz-border-radius: 15px 15px 15px 15px;
+  -webkit-border-radius: 15px 15px 15px 15px;
+  border: 0px solid #000000;
+}
+
+#myBtn:hover {
+  background: whitesmoke;
+  color: black;
+}
+
+#right {
+  font-size: 25px;
+  border: none;
+  background: #000;
+  color: whitesmoke;
+  cursor: pointer;
+  border-radius: 15px 15px 15px 15px;
+  -moz-border-radius: 15px 15px 15px 15px;
+  -webkit-border-radius: 15px 15px 15px 15px;
+  border: 0px solid #000000;
+}
+
+#right:hover {
+  background: #ddd;
+  color: black;
+}
+
+#right2 {
+  font-size: 25px;
+  border: none;
+  background: #000;
+  color: whitesmoke;
+  cursor: pointer;
+  border-radius: 15px 15px 15px 15px;
+  -moz-border-radius: 15px 15px 15px 15px;
+  -webkit-border-radius: 15px 15px 15px 15px;
+  border: 0px solid #000000;
+}
+
+#right2:hover {
+  background: #ddd;
+  color: black;
+}
+
+.outro {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.intro {
+  display: flex;
+  word-wrap: wrap;
+  align-content: center;
+}
+
+button {
+  margin: 10px;
+  min-width: 150px;
+  min-height: 50px;
+}
+
+input {
+  margin: 20px;
+}
